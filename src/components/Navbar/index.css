@@ -1,8 +1,6 @@
 .navbar-container {
 	background-color: #dbf3f3;
-	width: 100vw;
 	box-shadow: 0 15px 45px 0 rgba(48, 48, 48, 0.2);
-	padding: 10px;
 	display: flex;
 }
 

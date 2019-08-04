@@ -1,0 +1,38 @@
+.contacto-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 45px 0px;
+}
+
+.input-field,
+.comment-field {
+	box-sizing: border-box;
+	width: 100%;
+	font-family: inherit;
+	font-size: 17px;
+	opacity: 0.9;
+	border-radius: 5px;
+	margin: 10px 0px;
+	padding: 25px 30px;
+	background-color: #f5f5f5 !important;
+	border: none;
+	resize: none;
+}
+
+.contacto-image-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contacto-image {
+	width: 40vw;
+	max-width: 960px;
+	min-width: 220px;
+	margin: auto;
+	object-fit: contain;
+}
+
+.contacto-form {
+	padding: 100px;
+}
