@@ -1,0 +1,43 @@
+.footer-container {
+	background-image: linear-gradient(#ffffff, #efefef);
+	padding: 50px;
+	display: flex;
+	width: 100vw;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+	flex-grow: 1;
+}
+
+.footer-middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.link-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+}
+
+.footer-link {
+	font-size: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.social-icon {
+	height: 40px;
+	margin: 10px;
+}
+
+.fb {
+	color: #4172b8;
+}
+
+.gmail {
+	color: #d14836;
+}
