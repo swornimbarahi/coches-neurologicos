@@ -19,8 +19,8 @@ export const Navbar: FunctionComponent = () => {
 				</div>
 			</div>
 			<div className="navbar-right">
-				<img src={LeggeroLogo} alt="Leggero Logo" className="logo" />
 				<img src={StealthLogo} alt="Stealth Logo" className="logo" />
+				<img src={LeggeroLogo} alt="Leggero Logo" className="logo" />
 			</div>
 		</div>
 	);

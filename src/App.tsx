@@ -3,9 +3,10 @@ import { Navbar } from './components/Navbar';
 import { BrowserRouter } from 'react-router-dom';
 
 import './App.css';
+
 import { Inicio } from './components/Inicio';
 import { Contacto } from './components/Contacto';
-
+import { QuienSomos } from './components/QuienSomos';
 import { Footer } from './components/Footer';
 
 const App: FunctionComponent = () => {
@@ -13,6 +14,7 @@ const App: FunctionComponent = () => {
 		<BrowserRouter>
 			<Navbar />
 			<Inicio />
+			<QuienSomos />
 			<Contacto />
 			<Footer />
 		</BrowserRouter>
