@@ -1,5 +1,42 @@
 .navbar-container {
 	background-color: #dbf3f3;
-	height: 100px;
+	width: 100%;
 	box-shadow: 0 15px 45px 0 rgba(48, 48, 48, 0.2);
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding: 10px;
+	display: flex;
+}
+
+.navbar-title {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo {
+	height: 70px;
+	margin: 0px 20px;
+	vertical-align: middle;
+}
+
+.navbar-left {
+	flex-grow: 1;
+}
+
+.navbar-right {
+	flex-grow: 1;
+}
+
+.line {
+	height: 5px;
+	margin: 5px;
+	width: 30px;
+	background-color: #000000;
+}
+
+.menu-button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }

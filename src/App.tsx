@@ -1,13 +1,16 @@
 import React, { FunctionComponent } from 'react';
 import { Navbar } from './components/Navbar';
+import { BrowserRouter } from 'react-router-dom';
 
 import './App.css';
+import { Inicio } from './components/Inicio';
 
 const App: FunctionComponent = () => {
 	return (
-		<div>
+		<BrowserRouter>
 			<Navbar />
-		</div>
+			<Inicio />
+		</BrowserRouter>
 	);
 };
 
