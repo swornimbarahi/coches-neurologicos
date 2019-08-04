@@ -15,22 +15,22 @@ export const Footer: FunctionComponent = () => {
 				<div className="link-container">
 					<div>
 						<Link to="#inicio" className="footer-link">
-							Inicio
+							<strong>Inicio</strong>
 						</Link>
 					</div>
 					<div>
 						<Link to="#inicio" className="footer-link">
-							Quienes Somos
+							<strong>Quienes Somos</strong>
 						</Link>
 					</div>
 					<div>
 						<Link to="#inicio" className="footer-link">
-							Productos
+							<strong>Productos</strong>
 						</Link>
 					</div>
 					<div>
 						<Link to="#inicio" className="footer-link">
-							Contacto
+							<strong>Contacto</strong>
 						</Link>
 					</div>
 				</div>

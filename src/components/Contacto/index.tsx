@@ -13,7 +13,7 @@ export const Contacto: FunctionComponent = () => {
 		if (
 			nombre.length >= 1 &&
 			email.match(/[^@]+@[^\.]+\..+/g) &&
-			telefono.length === 10 &&
+			telefono.length === 9 &&
 			comentario !== ''
 		)
 			setEnviarEnable(true);
@@ -22,6 +22,8 @@ export const Contacto: FunctionComponent = () => {
 
 	return (
 		<div className="contacto-container">
+			<h1>Solicite cotización</h1>
+			<div />
 			<div className="contacto-form">
 				<form action="">
 					<div>
@@ -68,7 +70,9 @@ export const Contacto: FunctionComponent = () => {
 							placeholder="Comentario"
 							id="message-input"
 						/>
-						<button disabled={!enviarEnable}>Enviar</button>
+						<button disabled={!enviarEnable} className="enviar-button">
+							Enviar
+						</button>
 					</div>
 				</form>
 			</div>

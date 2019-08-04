@@ -11,14 +11,14 @@
 }
 
 .inicio-side-text {
-	font-size: 35px;
+	font-size: 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 .inicio-image {
-	width: 50vw;
+	width: 40vw;
 	max-width: 960px;
 	min-width: 220px;
 	margin: auto;
