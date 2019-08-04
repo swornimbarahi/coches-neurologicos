@@ -5,7 +5,7 @@ import './index.css';
 export const Inicio: FunctionComponent = () => {
 	return (
 		<div className="inicio-container">
-			<div>
+			<div className="inicio-image-container">
 				<img src={InicioImage} alt="" className="inicio-image" />
 			</div>
 			<div className="inicio-side-text">
