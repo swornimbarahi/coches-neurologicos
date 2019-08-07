@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import QuienSomosImage1 from '../../assets/images/quien_somos_1.svg';
+import QuienSomosImage1 from '../../assets/images/quien_somos_1.png';
 
 import './index.css';
 

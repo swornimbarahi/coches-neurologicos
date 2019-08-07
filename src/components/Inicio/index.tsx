@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import InicioImage from '../../assets/images/inicio_image.jpg';
+import InicioImage from '../../assets/images/inicio_image.png';
 import './index.css';
 
 export const Inicio: FunctionComponent = () => {
