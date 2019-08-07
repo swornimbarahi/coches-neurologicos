@@ -1,0 +1,14 @@
+.product-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 100px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.product-image {
+	height: 65vh;
+	min-height: 300px;
+}

@@ -22,7 +22,7 @@ export const Contacto: FunctionComponent = () => {
 
 	return (
 		<div className="contacto-container">
-			<h1>Solicite cotización</h1>
+			<h1>SOLICITE COTIZACIÓN</h1>
 			<div />
 			<div className="contacto-form">
 				<form action="">

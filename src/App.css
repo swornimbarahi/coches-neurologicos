@@ -6,3 +6,45 @@ h5,
 h6 {
 	margin: 0px;
 }
+
+.ui-fill {
+	display: flex;
+}
+
+.ui-fill-horizontal {
+	flex-direction: row;
+}
+
+.ui-fill-vertical {
+	flex-direction: column;
+}
+
+.ui-v-align-center {
+	justify-content: center;
+}
+
+.ui-fill-grow {
+	flex-grow: 1;
+}
+
+.ui-bg--red {
+	background-color: #ee6677;
+}
+
+.ui-bg--blue {
+	background-color: #c19dd9;
+}
+
+.ui-bg--green {
+	background-color: #40ff9f;
+}
+
+.ui-bg--darkblue {
+	background-color: #4ba2d4;
+}
+
+.ui-vw--10 {
+	width: 200px;
+	padding: 20px;
+	cursor: pointer;
+}

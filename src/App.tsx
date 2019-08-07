@@ -8,6 +8,7 @@ import { Inicio } from './components/Inicio';
 import { Contacto } from './components/Contacto';
 import { QuienSomos } from './components/QuienSomos';
 import { Footer } from './components/Footer';
+import { Productos } from './components/Productos';
 
 const App: FunctionComponent = () => {
 	return (
@@ -15,6 +16,7 @@ const App: FunctionComponent = () => {
 			<Navbar />
 			<Inicio />
 			<QuienSomos />
+			<Productos />
 			<Contacto />
 			<Footer />
 		</BrowserRouter>
