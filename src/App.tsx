@@ -1,26 +1,28 @@
-import React, { FunctionComponent } from 'react';
-import { Navbar } from './components/Navbar';
-import { BrowserRouter } from 'react-router-dom';
+import React, { FunctionComponent } from "react";
+import { Navbar } from "./components/Navbar";
+import { BrowserRouter } from "react-router-dom";
 
-import './App.css';
+import "./App.css";
 
-import { Inicio } from './components/Inicio';
-import { Contacto } from './components/Contacto';
-import { QuienSomos } from './components/QuienSomos';
-import { Footer } from './components/Footer';
-import { Productos } from './components/Productos';
+import { Inicio } from "./components/Inicio";
+import { Contacto } from "./components/Contacto";
+import { QuienSomos } from "./components/QuienSomos";
+import { Footer } from "./components/Footer";
+import { Productos } from "./components/Productos";
+import { SetupVideo } from "./components/SetupVideo";
 
 const App: FunctionComponent = () => {
-	return (
-		<BrowserRouter>
-			<Navbar />
-			<Inicio />
-			<QuienSomos />
-			<Productos />
-			<Contacto />
-			<Footer />
-		</BrowserRouter>
-	);
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Inicio />
+      <QuienSomos />
+      <Productos />
+      <SetupVideo />
+      <Contacto />
+      <Footer />
+    </BrowserRouter>
+  );
 };
 
 export default App;
