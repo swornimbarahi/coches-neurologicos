@@ -20,6 +20,9 @@ export const Productos: FunctionComponent = () => {
 				'ui-bg--darkblue': product === 'LIGHTNING'
 			})}
 		>
+			<div className="text-left about-title video-title">
+				<h1>NUESTROS PRODUCTOS</h1>
+			</div>
 			<div className="ui-fill">
 				<div className="ui-fill-grow" />
 				<div
