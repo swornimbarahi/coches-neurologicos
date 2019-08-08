@@ -69,7 +69,7 @@ export const Productos: FunctionComponent = () => {
 				<div className="ui-fill ui-fill-vertical ui-v-align-center">
 					<div>
 						<h1>DESCRIPCION</h1>
-						<div className="inicio-side-text">
+						<div className="producto-side-text">
 							<div>{data[product]['desc']}</div>
 							<ul className="text-left">
 								{product && data[product]['points'].map((point: string) => <li>{point}</li>)}

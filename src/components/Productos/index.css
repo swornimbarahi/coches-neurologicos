@@ -12,3 +12,11 @@
 	height: 65vh;
 	min-height: 300px;
 }
+
+
+.producto-side-text {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
