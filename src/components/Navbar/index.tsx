@@ -11,13 +11,6 @@ export const Navbar: FunctionComponent = () => {
 				<img src={Logo} alt="Coches Neurologicos Logo" className="logo" />
 				<h1 className="navbar-title">Coches Neurologicos</h1>
 			</div>
-			<div className="menu-button-container">
-				<div className="menu-button">
-					<div className="line" />
-					<div className="line" />
-					<div className="line" />
-				</div>
-			</div>
 			<div className="navbar-right">
 				<img src={StealthLogo} alt="Stealth Logo" className="logo" />
 				<img src={LeggeroLogo} alt="Leggero Logo" className="logo" />
