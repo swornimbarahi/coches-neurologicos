@@ -1,8 +1,11 @@
 .video-frame {
-  height: 40vw;
-  min-width: 500px;
-  min-height: 300px;
-  width: 60vw;
-  padding: 50px;
-  border: none;
+	height: 40vw;
+	min-width: 500px;
+	min-height: 300px;
+	width: 60vw;
+	border: none;
+}
+
+.video-title {
+	padding: 50px 200px 10px;
 }
