@@ -12,76 +12,78 @@ export const Productos: FunctionComponent = () => {
 	const [product, setProduct] = useState('DYNO');
 
 	return (
-		<div
-			className={classnames({
-				'ui-bg--red': product === 'DYNO',
-				'ui-bg--blue': product === 'TRAK',
-				'ui-bg--green': product === 'REACH',
-				'ui-bg--darkblue': product === 'LIGHTNING'
-			})}
-		>
+		<>
 			<div className="text-left about-title video-title">
 				<h1>NUESTROS PRODUCTOS</h1>
 			</div>
-			<div className="ui-fill">
-				<div className="ui-fill-grow" />
-				<div
-					className="product-title ui-bg--red ui-vw--10"
-					onClick={() => {
-						setProduct('DYNO');
-					}}
-				>
-					<h1>DYNO</h1>
-				</div>
-				<div
-					className="product-title ui-bg--blue ui-vw--10"
-					onClick={() => {
-						setProduct('TRAK');
-					}}
-				>
-					<h1>TRAK</h1>
-				</div>
-				<div
-					className="product-title ui-bg--green ui-vw--10"
-					onClick={() => {
-						setProduct('REACH');
-					}}
-				>
-					<h1>REACH</h1>
-				</div>
-				<div
-					className="product-title ui-bg--darkblue ui-vw--10"
-					onClick={() => {
-						setProduct('LIGHTNING');
-					}}
-				>
-					<h1>LIGHTNING</h1>
-				</div>
-				<div className="ui-fill-grow" />
-			</div>
-			<div className="product-container">
-				<div>
+			<div
+				className={classnames({
+					'ui-bg--red': product === 'DYNO',
+					'ui-bg--blue': product === 'TRAK',
+					'ui-bg--green': product === 'REACH',
+					'ui-bg--darkblue': product === 'LIGHTNING'
+				})}
+			>
+				<div className="ui-fill">
 					<div className="ui-fill-grow" />
-					<img
-						src={product.length ? data[product]['image'] : Dyno}
-						alt=""
-						className="product-image"
-					/>
+					<div
+						className="product-title ui-bg--red ui-vw--10"
+						onClick={() => {
+							setProduct('DYNO');
+						}}
+					>
+						<h1>DYNO</h1>
+					</div>
+					<div
+						className="product-title ui-bg--blue ui-vw--10"
+						onClick={() => {
+							setProduct('TRAK');
+						}}
+					>
+						<h1>TRAK</h1>
+					</div>
+					<div
+						className="product-title ui-bg--green ui-vw--10"
+						onClick={() => {
+							setProduct('REACH');
+						}}
+					>
+						<h1>REACH</h1>
+					</div>
+					<div
+						className="product-title ui-bg--darkblue ui-vw--10"
+						onClick={() => {
+							setProduct('LIGHTNING');
+						}}
+					>
+						<h1>LIGHTNING</h1>
+					</div>
 					<div className="ui-fill-grow" />
 				</div>
-				<div className="ui-fill ui-fill-vertical ui-v-align-center">
+				<div className="product-container">
 					<div>
-						<h1>DESCRIPCION</h1>
-						<div className="producto-side-text">
-							<div>{data[product]['desc']}</div>
-							<ul className="text-left">
-								{product && data[product]['points'].map((point: string) => <li>{point}</li>)}
-							</ul>
+						<div className="ui-fill-grow" />
+						<img
+							src={product.length ? data[product]['image'] : Dyno}
+							alt=""
+							className="product-image"
+						/>
+						<div className="ui-fill-grow" />
+					</div>
+					<div className="ui-fill ui-fill-vertical ui-v-align-center">
+						<div>
+							<h1>DESCRIPCION</h1>
+							<div className="producto-side-text">
+								<div>{data[product]['desc']}</div>
+								<ul className="text-left">
+									{product && data[product]['points'].map((point: string) => <li>{point}</li>)}
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
