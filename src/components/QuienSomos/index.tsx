@@ -7,7 +7,7 @@ export const QuienSomos: FunctionComponent = () => {
 	return (
 		<div className="about-super-container">
 			<div className="about-title">
-				<h1>QUINES SOMOS</h1>
+				<h1>QUIENES SOMOS</h1>
 			</div>
 			<div className="about-container">
 				<div className="about-left">
