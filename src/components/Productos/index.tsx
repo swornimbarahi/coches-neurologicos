@@ -27,36 +27,36 @@ export const Productos: FunctionComponent = () => {
 				<div className="ui-fill">
 					<div className="ui-fill-grow" />
 					<div
-						className="product-title ui-bg--red ui-vw--10"
+						className="ui-bg--red ui-fixed-width"
 						onClick={() => {
 							setProduct('DYNO');
 						}}
 					>
-						<h1>DYNO</h1>
+						<h1 className="ui-sub-title ui-text-bold">DYNO</h1>
 					</div>
 					<div
-						className="product-title ui-bg--blue ui-vw--10"
+						className="ui-bg--blue ui-fixed-width"
 						onClick={() => {
 							setProduct('TRAK');
 						}}
 					>
-						<h1>TRAK</h1>
+						<h1 className="ui-sub-title ui-text-bold">TRAK</h1>
 					</div>
 					<div
-						className="product-title ui-bg--green ui-vw--10"
+						className="ui-bg--green ui-fixed-width"
 						onClick={() => {
 							setProduct('REACH');
 						}}
 					>
-						<h1>REACH</h1>
+						<h1 className="ui-sub-title ui-text-bold">REACH</h1>
 					</div>
 					<div
-						className="product-title ui-bg--darkblue ui-vw--10"
+						className="ui-bg--darkblue ui-fixed-width"
 						onClick={() => {
 							setProduct('LIGHTNING');
 						}}
 					>
-						<h1>LIGHTNING</h1>
+						<h1 className="ui-sub-title ui-text-bold">LIGHTNING</h1>
 					</div>
 					<div className="ui-fill-grow" />
 				</div>

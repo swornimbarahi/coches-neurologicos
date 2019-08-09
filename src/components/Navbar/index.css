@@ -2,7 +2,7 @@
 	background-color: #dbf3f3;
 	box-shadow: 0 15px 45px 0 rgba(48, 48, 48, 0.2);
 	display: flex;
-	padding: 10px;
+	padding: 15px;
 }
 
 .navbar-title {
@@ -22,17 +22,4 @@
 
 .navbar-right {
 	flex-grow: 1;
-}
-
-.line {
-	height: 5px;
-	margin: 5px;
-	width: 30px;
-	background-color: #000000;
-}
-
-.menu-button-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
