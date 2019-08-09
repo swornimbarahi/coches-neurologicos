@@ -1,7 +1,6 @@
 .footer-container {
-	background-image: linear-gradient(#ffffff, #efefef);
+	background-image: linear-gradient(#ffffff, #dbf3f3);
 	display: flex;
-	padding: 50px 0px;
 }
 
 .footer-left,
@@ -31,12 +30,4 @@
 .social-icon {
 	height: 40px;
 	margin: 10px;
-}
-
-.fb {
-	color: #4172b8;
-}
-
-.gmail {
-	color: #d14836;
 }

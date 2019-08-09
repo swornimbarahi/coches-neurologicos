@@ -1,7 +1,6 @@
 .inicio-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	padding: 45px 200px;
 }
 
 .inicio-image-container {
@@ -20,18 +19,13 @@
 .inicio-image {
 	width: 40vw;
 	max-width: 960px;
-	min-width: 220px;
+	min-width: 300px;
 	margin: auto;
-	object-fit: contain;
 }
 
 @media (max-width: 1400px) {
 	.inicio-side-text {
 		font-size: 25px;
-	}
-
-	.inicio-container {
-		padding: 20px;
 	}
 }
 

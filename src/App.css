@@ -1,3 +1,8 @@
+.App {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
 h1,
 h2,
 h3,
@@ -5,6 +10,10 @@ h4,
 h5,
 h6 {
 	margin: 0px;
+}
+
+.ui-sub-title {
+	font-size: 28px;
 }
 
 .ui-fill {
@@ -43,8 +52,51 @@ h6 {
 	background-color: #4ba2d4;
 }
 
-.ui-vw--10 {
+.ui-fixed-width {
 	width: 200px;
 	padding: 20px;
 	cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+	.App {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.ui-fixed-width {
+		width: 150px;
+		padding: 15px;
+	}
+
+	.ui-sub-title {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.App {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.ui-fixed-width {
+		width: 150px;
+		padding: 10px;
+	}
+
+	.ui-sub-title {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 700px) {
+	.App {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+.ui-text-bold {
+	font-weight: bolder;
 }

@@ -16,12 +16,14 @@ const App: FunctionComponent = () => {
 	return (
 		<BrowserRouter>
 			<Navbar />
-			<Inicio />
-			<QuienSomos />
-			<Productos />
-			<SetupVideo />
-			<Contacto />
-			<GoogleMap />
+			<div className="App">
+				<Inicio />
+				<QuienSomos />
+				<Productos />
+				<SetupVideo />
+				<Contacto />
+				<GoogleMap />
+			</div>
 			<Footer />
 		</BrowserRouter>
 	);

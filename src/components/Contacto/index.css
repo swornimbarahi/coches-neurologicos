@@ -1,7 +1,6 @@
 .contacto-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding: 45px 0px;
+	display: flex;
+	flex-direction: row;
 }
 
 .input-field,
@@ -28,24 +27,18 @@
 .contacto-image {
 	width: 40vw;
 	max-width: 960px;
-	min-width: 220px;
+	min-width: 300px;
 	margin: auto;
-	object-fit: contain;
-}
-
-.contacto-form {
-	padding: 100px;
 }
 
 .enviar-button {
-	width: 80%;
+	width: 100%;
 	border: none;
 	background-color: #ffa36e;
 	color: white;
 	border-radius: 5px;
 	box-shadow: 1px 1px #e1e1e1;
 	box-sizing: border-box;
-	margin-top: 10px;
 	align-self: flex-end;
 	font-size: 25px;
 	padding: 10px;
@@ -54,4 +47,14 @@
 
 .enviar-button:disabled {
 	background-color: #cccccc;
+}
+
+@media (max-width: 1000px) {
+	.contacto-container {
+		flex-direction: column-reverse;
+	}
+
+	.contacto-image {
+		width: 70vw;
+	}
 }
