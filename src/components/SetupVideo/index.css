@@ -1,7 +1,7 @@
 .video-frame {
 	height: 40vw;
-	min-width: 500px;
-	min-height: 300px;
+	min-width: 300px;
+	min-height: 250px;
 	width: 60vw;
 	border: none;
 }
