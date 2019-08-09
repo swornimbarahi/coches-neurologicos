@@ -6,11 +6,13 @@ import Facebook from '../../assets/logos/facebook.svg';
 export const Footer: FunctionComponent = () => {
 	return (
 		<div className="footer-container ui-content-text">
-			<div className="footer-left">
-				<img src={Logo} alt="logo" className="logo" />
-				<h1 className="navbar-title">Coches Neurologicos</h1>
+			<div className="footer-left ui-v-center">
+				<div>
+					<img src={Logo} alt="logo" className="logo" />
+					<h1 className="ui-main-title ui-inline-block">Coches Neurologicos</h1>
+				</div>
 			</div>
-			<div className="footer-middle ui-v-center">
+			<div className="footer-middle ui-v-bottom ui-mb">
 				<div className="link-container">
 					<div>
 						<a href="#inicio" className="footer-link">
@@ -34,9 +36,19 @@ export const Footer: FunctionComponent = () => {
 					</div>
 				</div>
 			</div>
-			<div className="footer-right">
-				<img src={Facebook} alt="" className="social-icon fb" />
-				<img src="https://simpleicons.org/icons/gmail.svg" alt="" className="social-icon gmail" />
+			<div className="footer-right ui-v-bottom ui-mb">
+				<div>
+					<a target="" href="https://www.facebook.com/cochesneurologicos/">
+						<img src={Facebook} alt="" className="social-icon fb" />
+					</a>
+					<a href="mailto:ventas@cochesneurologicos.com">
+						<img
+							src="https://simpleicons.org/icons/gmail.svg"
+							alt=""
+							className="social-icon gmail"
+						/>
+					</a>
+				</div>
 			</div>
 		</div>
 	);
