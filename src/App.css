@@ -12,8 +12,8 @@ h6 {
 	margin: 0px;
 }
 
-.ui-sub-title {
-	font-size: 28px;
+.ui-inline-block {
+	display: inline-block;
 }
 
 .ui-fill {
@@ -37,7 +37,7 @@ h6 {
 }
 
 .ui-bg--red {
-	background-color: #ee6677;
+	background-color: #ee6666;
 }
 
 .ui-bg--blue {
@@ -58,6 +58,28 @@ h6 {
 	cursor: pointer;
 }
 
+.ui-v-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ui-main-title {
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.ui-sub-title {
+	font-size: 32px;
+}
+
+.ui-content-text {
+	font-size: 26px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 @media (max-width: 1300px) {
 	.App {
 		padding-left: 100px;
@@ -69,8 +91,17 @@ h6 {
 		padding: 15px;
 	}
 
+	.ui-main-title {
+		font-size: 32px;
+		margin-top: 60px;
+	}
+
 	.ui-sub-title {
-		font-size: 22px;
+		font-size: 28px;
+	}
+
+	.ui-content-text {
+		font-size: 20px;
 	}
 }
 
@@ -85,15 +116,24 @@ h6 {
 		padding: 10px;
 	}
 
+	.ui-main-title {
+		font-size: 26px;
+		margin-top: 40px;
+	}
+
 	.ui-sub-title {
-		font-size: 18px;
+		font-size: 22px;
+	}
+
+	.ui-content-text {
+		font-size: 16px;
 	}
 }
 
 @media (max-width: 700px) {
 	.App {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 }
 

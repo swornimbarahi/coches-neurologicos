@@ -1,20 +1,6 @@
-.about-title {
-	text-align: left;
-}
-
 .about-container {
 	display: flex;
 	flex-direction: row;
-}
-
-.about-middle {
-	object-fit: contain;
-}
-
-.about-right {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
 }
 
 .about-image {
@@ -24,11 +10,6 @@
 
 .about-title h1 {
 	font-size: 40px;
-}
-
-.about-left p,
-.about-right p {
-	font-size: 25px;
 }
 
 @media (max-width: 1000px) {

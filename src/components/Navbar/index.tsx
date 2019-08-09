@@ -9,7 +9,31 @@ export const Navbar: FunctionComponent = () => {
 		<div className="navbar-container">
 			<div className="navbar-left">
 				<img src={Logo} alt="Coches Neurologicos Logo" className="logo" />
-				<h1 className="navbar-title">Coches Neurologicos</h1>
+				<h1 className="ui-sub-title ui-inline-block">Coches Neurologicos</h1>
+			</div>
+			<div className="navbar-middle ui-v-center">
+				<div className="nav-link-container">
+					<div>
+						<a href="#inicio" className="footer-link">
+							<strong>Inicio</strong>
+						</a>
+					</div>
+					<div>
+						<a href="#quienes" className="footer-link">
+							<strong>Quienes Somos</strong>
+						</a>
+					</div>
+					<div>
+						<a href="#productos" className="footer-link">
+							<strong>Productos</strong>
+						</a>
+					</div>
+					<div>
+						<a href="#contacto" className="footer-link">
+							<strong>Contacto</strong>
+						</a>
+					</div>
+				</div>
 			</div>
 			<div className="navbar-right">
 				<img src={StealthLogo} alt="Stealth Logo" className="logo" />

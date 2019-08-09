@@ -1,19 +1,7 @@
 .inicio-container {
+	margin-top: 50px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-}
-
-.inicio-image-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.inicio-side-text {
-	font-size: 30px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
 
 .inicio-image {
@@ -23,17 +11,7 @@
 	margin: auto;
 }
 
-@media (max-width: 1400px) {
-	.inicio-side-text {
-		font-size: 25px;
-	}
-}
-
 @media (max-width: 1000px) {
-	.inicio-side-text {
-		font-size: 20px;
-	}
-
 	.inicio-container {
 		grid-template-columns: none;
 		grid-template-rows: 1fr 1fr;

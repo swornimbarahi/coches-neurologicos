@@ -21,8 +21,8 @@ export const Contacto: FunctionComponent = () => {
 	}, [nombre, email, telefono, comentario]);
 
 	return (
-		<div className="contacto-super-container">
-			<h1>SOLICITE COTIZACIÓN</h1>
+		<div id={'contacto'} className="contacto-super-container">
+			<h1 className="ui-main-title ui-text-bold text-left">SOLICITE COTIZACIÓN</h1>
 			<div className="contacto-container">
 				<div className="contacto-form">
 					<form action="">
@@ -76,7 +76,7 @@ export const Contacto: FunctionComponent = () => {
 						</div>
 					</form>
 				</div>
-				<div className="contacto-image-container">
+				<div className="ui-v-center">
 					<img src={Contactoimage} alt="" className="contacto-image" />
 				</div>
 			</div>
