@@ -28,3 +28,9 @@
 .navbar-right {
 	flex-grow: 1;
 }
+
+@media (max-width: 1000px) {
+	.navbar-container {
+		flex-direction: column;
+	}
+}
