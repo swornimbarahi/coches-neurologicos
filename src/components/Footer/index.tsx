@@ -13,7 +13,7 @@ export const Footer: FunctionComponent = () => {
 				</div>
 			</div>
 			<div className="footer-middle ui-v-bottom ui-mb">
-				<div className="link-container">
+				<div className="nav-link-container">
 					<div>
 						<a href="#inicio" className="footer-link">
 							<strong>Inicio</strong>
